@@ -54,7 +54,7 @@
 ## Message style
 
 - Owners/leads ke messages chhote, casual aur human ho.
-- "Mr <name>" likho, "sir" nahi.
+- `Mr <name>` likho, "sir" nahi.
 - Message "thanks" se shuru mat karo.
 - Guests/leads se baat ki shuruaat me batao ki yeh ZUNA ka AI assistant hai.
 
