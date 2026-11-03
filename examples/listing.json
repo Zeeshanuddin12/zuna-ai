@@ -1,0 +1,10 @@
+{
+  "building": "Demo Tower",
+  "area": "Demo Marina",
+  "bedrooms": 1,
+  "nightly_aed": 450,
+  "amenities": [
+    "Wi-Fi",
+    "kitchen"
+  ]
+}
