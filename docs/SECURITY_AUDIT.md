@@ -8,6 +8,8 @@ OpenAgent baseline: `c9b1858`, 10 commits and 10 unique blobs. Gitleaks full his
 
 ## Findings and remediation
 
+- A broader numeric/contact scan found a business contact number in the brand-voice skill (two occurrences). Removed it from the current file. It remains in historical commits and possible copies. Treat its intended public status as unconfirmed; the maintainer should assess unwanted contact risk and whether history cleanup is warranted. Other long-number candidates were dates, numeric ranges and synthetic content metrics. No credential-bearing URL or local user path was found by that supplemental scan.
+
 - ZUNA's old `CLAUDE.md` exposes business/operating context and two Claude artifact identifiers. These are not API credentials, but may identify internal planning artifacts. Replaced the current file with public contributor guidance. The old values still exist in Git history, PR refs, clones and possible caches. They have not been purged and artifact permissions have not been verified or revoked. The maintainer should inspect the sharing settings of those two original artifacts and disable sharing if they contain private information. No claim of complete privacy remediation is made.
 - `story-bank.md` and `voice-profile.md` are empty upstream templates, not populated customer records. Renamed them to `.example.md` and ignored their working filenames so later personal edits are not automatically tracked.
 - Added ignores for environment files, local databases and a private folder. Ignore rules do not protect files already tracked or secrets pasted elsewhere.

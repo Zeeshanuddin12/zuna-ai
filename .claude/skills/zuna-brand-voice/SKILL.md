@@ -72,7 +72,7 @@ Ek CTA chuno:
 Saath me WhatsApp (sirf ZUNA ka business number):
 
 ```
-📞 WhatsApp: +971 56 210 2211
+📞 WhatsApp: [approved public contact — configure locally]
 ```
 
 Kisi owner, guest ya staff ka personal number kabhi nahi.
@@ -133,7 +133,7 @@ cheques. Price tabhi likho jab Zeeshan ne diya ho, khud se kabhi nahi.
 ✅ {Benefit 3}
 
 📩 DM to book your stay
-📞 WhatsApp: +971 56 210 2211
+📞 WhatsApp: [approved public contact — configure locally]
 
 {Tagline}
 .
